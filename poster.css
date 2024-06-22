@@ -1,0 +1,52 @@
+.poster_container {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+
+.poster_content {
+    padding: 50px;
+    gap: 10px;
+}
+
+.poster_buttons_container {
+    gap: 10px;
+}
+
+.poster_buttons_container button {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius:3px;
+}
+
+@media print {
+    body * {
+        display: none;
+    }
+
+    #poster_container , .poster_content * {
+        display: block;
+    }
+}
+
+
+.link_container{
+    gap:10px;
+    padding: 100px;
+}
+
+.link_container input{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius:3px;
+}
+
+.link_container button{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius:3px;
+}

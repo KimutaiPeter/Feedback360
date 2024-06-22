@@ -1,0 +1,106 @@
+.content_container {
+    width: 70%;
+    gap: 20px;
+}
+
+
+.actions_container {
+    width: 100%;
+    gap: 10px;
+}
+
+.actions_container button {
+    border: none;
+    padding: 12px;
+    color: white;
+    border-radius: 8px;
+    background: rgb(23, 18, 15);
+    gap: 3px;
+}
+
+.indicator_container {
+    width: 100%;
+}
+
+.indicator_content {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    width: 252px;
+    height: 90px;
+    padding: 20px;
+
+}
+
+.indicator_label{
+    color: rgb(165, 153, 149);
+font-size: 12px;
+font-weight: 500;
+}
+
+.indicator_value{
+font-size: 24px;
+font-weight: 700;
+}
+
+.options_container{
+    width: 100%;
+}
+
+.options_content{
+    background-color: rgb(244, 242, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.options_content button{
+    padding:5px 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius:10px;
+}
+
+.options_content input{
+    background-color: rgb(244, 242, 255);
+    border: none;
+}
+
+.options_content input:active{
+    border: none;
+}
+
+
+.table_container {
+    
+    padding: 0px;
+    width: 100%;
+}
+
+.table_container table{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table_container table td,th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.table_container table tr{
+    padding-left: 5px;
+}
+
+.header_row {
+    background-color: rgb(244, 242, 255);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    text-align: left;
+    font-weight: 600;
+}

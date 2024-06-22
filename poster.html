@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layouts.css">
+    <link rel="stylesheet" href="poster.css">
+</head>
+
+<body>
+    <div class="center_center_vertical" style="padding: 50px 0px;gap:30px;">
+        <div class="poster_buttons_container center_center_horizontal">
+            <button>QR code poster</button>
+            <button onclick="printer()"
+                style="color: black;border:3px solid black; background-color: white;">Link</button>
+        </div>
+
+        <div class="poster_container center_top_vertical">
+            <div id="poster_container">
+
+                <div class="poster_content center_top_vertical">
+                    <h1>XYZ Hospital</h1>
+                    <h2>Report a problem/Commend us</h2>
+                    <span>We are adaptive, How can we serve you better?</span>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=550x550&data=https://www.google.com/"
+                        alt="">
+                    <span>Scan me to comment</span>
+                </div>
+
+            </div>
+
+            <div class="poster_buttons_container center_center_horizontal">
+                <button>Download</button>
+                <button onclick="printer()">Print</button>
+            </div>
+
+            <div class="link_container center_center_horizontal">
+                <input type="text"
+                    value="https://api.qrserver.com/v1/create-qr-code/?size=550x550&data=https://www.google.com/">
+                <button>copy</button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</body>
+<script>
+    function printer() {
+        window.print()
+    }
+</script>
+
+</html>
