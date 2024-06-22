@@ -1,0 +1,19 @@
+.input_container{
+    width: 90%;
+    gap: 20px;
+}
+
+.input_container textarea{
+    width: 90%;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.input_container button{
+    width: 90%;
+    color: white;
+    border-radius: 8px;
+    background: rgb(23, 18, 15);
+    border: none;
+    padding: 12px;
+}
